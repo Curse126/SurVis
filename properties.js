@@ -1,5 +1,3 @@
-// properties.js
-
 /**
  * Name as used as title for the main page
  * @type {string}
@@ -42,6 +40,10 @@ var tagCloudOptions = [{
 }, {
     field: 'series',
     title: 'Series',
+    minTagFrequency: 1
+},{
+    field: 'type',
+    title: 'Type',
     minTagFrequency: 1
 }];
 
