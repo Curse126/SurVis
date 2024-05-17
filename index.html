@@ -1,44 +1,72 @@
+<<<<<<< HEAD
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script type="text/javascript" src="properties.js"></script>
+    <script data-main="js/app.js" src="js/require.js"></script>
+</head>
+<body>
+</body>
+</html>
+=======
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>SurVis Literature Collection</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <script src="js/jquery.min.js"></script>
-    <script src="js/d3.min.js"></script>
-    <script src="js/survis.js"></script>
-    <script src="data/generated/bib.js"></script>
-    <script src="data/authorized_tags.js"></script>
-    <script src="data/tag_categories.js"></script>
-    <script src="properties.js"></script>
+    <link rel="stylesheet" href="src/styles/style.css">
+    <script src="src/js/jquery.min.js"></script>
+    <script src="src/js/d3.min.js"></script>
+    <script src="src/js/survis.js"></script>
+    <script src="src/data/generated/bib.js"></script>
+    <script src="src/data/authorized_tags.js"></script>
+    <script src="src/data/tag_categories.js"></script>
 </head>
 <body>
     <div>
         <h1>SurVis Literature Collection</h1>
         <p>Visit the <a href="http://localhost:8000" target="_blank">SurVis Literature Collection</a> for more information.</p>
         <div id="vis"></div>
-        <div id="keywords">
-            <p>Keywords</p>
-            <p id="keywordsType">type: </p>
-        </div>
     </div>
 
     <script>
         $(document).ready(function() {
             SurVis.init({
-                title: title,
-                dataDir: dataDir,
-                jsDir: jsDir,
-                stylesDir: stylesDir,
-                tagCloudOptions: tagCloudOptions,
-                editable: editable,
-                paper: paper,
-                extraPages: extraPages,
-                customStyle: customStyle,
-                citations: citations
+                title: "SurVis Literature Collection",
+                dataDir: "src/data/",
+                jsDir: "src/js/",
+                stylesDir: "src/styles/",
+                tagCloudOptions: [
+                    {
+                        field: 'keywords',
+                        title: 'Keywords',
+                        minTagFrequency: 1
+                    },
+                    {
+                        field: 'author',
+                        title: 'Authors',
+                        minTagFrequency: 1
+                    },
+                    {
+                        field: 'series',
+                        title: 'Series',
+                        minTagFrequency: 1
+                    }
+
+                ],
+                editable: true,
+                paper: {
+                    html: 'Sample literature collection for <b><a href="http://localhost:8000" target="_blank">SurVis</a></b>',
+                    id: 'Beck2016Visual'
+                },
+                extraPages: {
+                    'about': 'src/about.html'
+                },
+                customStyle: '',
+                citations: null
             });
-            $('#keywordsType').text('type: ' + tagCloudOptions[0].title);
         });
     </script>
 </body>
 </html>
+>>>>>>> cb30080 (Move index.html to root directory)
