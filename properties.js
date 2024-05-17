@@ -1,3 +1,5 @@
+// properties.js
+
 /**
  * Name as used as title for the main page
  * @type {string}
