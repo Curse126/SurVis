@@ -1,6 +1,6 @@
 ﻿define({ entries : {
-    "chen2021graph": {
-        "author": "Chen, Chen and Ma, Wenjie and Zhang, Min and Wang, Chenyang and Liu, Yiqun and Ma, Shaoping",
+    "deng2021graph": {
+        "author": "Deng, A,  Hooi, Chen and Ma, Wenjie and Zhang, Min and Wang, Chenyang and Liu, Yiqun and Ma, Shaoping",
         "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
         "doi": "10.1609/aaai.v35i5.16523",
         "keywords": "heterogeneous graphs, multi-relational recommendation, graph neural networks",
@@ -8,7 +8,7 @@
         "pages": "3958-3966",
         "series": "AAAI",
         "title": "Graph heterogeneous multi-relational recommendation",
-        "type": "inproceedings @inproceedings{chen2021graph, conference",
+        "type": "System Architecture",
         "volume": "35",
         "year": "2021"
     },
@@ -22,7 +22,7 @@
         "publisher": "MDPI",
         "series": "Applied Sciences",
         "title": "Recommendation systems: Algorithms, challenges, metrics, and business opportunities",
-        "type": "article @article{fayyaz2020recommendation, journal",
+        "type": "General Surveys and Challenges",
         "volume": "10",
         "year": "2020"
     },
@@ -35,7 +35,7 @@
         "pages": "173-182",
         "series": "WWW",
         "title": "Neural collaborative filtering",
-        "type": "inproceedings @inproceedings{he2017neural, conference",
+        "type": "Deep Learning Techniques ",
         "year": "2017"
     },
     "he2020lightgcn": {
@@ -47,7 +47,7 @@
         "pages": "639-648",
         "series": "SIGIR",
         "title": "LightGCN: Simplifying and powering graph convolution network for recommendation",
-        "type": "inproceedings @inproceedings{he2020lightgcn, conference",
+        "type": "Algorithmic Advancements",
         "year": "2020"
     },
     "liang2018variational": {
@@ -59,7 +59,7 @@
         "pages": "689-698",
         "series": "WWW",
         "title": "Variational autoencoders for collaborative filtering",
-        "type": "inproceedings conference",
+        "type": "Deep Learning Techniques ",
         "year": "2018"
     },
     "rendle2020neural": {
@@ -71,7 +71,7 @@
         "pages": "240-248",
         "series": "RecSys",
         "title": "Neural collaborative filtering vs. matrix factorization revisited",
-        "type": "inproceedings @inproceedings{rendle2020neural, conference",
+        "type": "Algorithmic Advancements",
         "year": "2020"
     },
     "sun2019bert4rec": {
@@ -83,7 +83,7 @@
         "pages": "1441-1450",
         "series": "CIKM",
         "title": "BERT4Rec: Sequential recommendation with bidirectional encoder representations from transformer",
-        "type": "inproceedings @inproceedings{sun2019bert4rec, conference",
+        "type": "User Interaction and Feedback",
         "year": "2019"
     },
     "wang2019neural": {
@@ -95,7 +95,7 @@
         "pages": "165-174",
         "series": "SIGIR",
         "title": "Neural graph collaborative filtering",
-        "type": "inproceedings @inproceedings{wang2019neural, conference",
+        "type": "Algorithmic Advancements",
         "year": "2019"
     },
     "xin2020self": {
@@ -107,7 +107,7 @@
         "pages": "931-940",
         "series": "SIGIR",
         "title": "Self-Supervised Reinforcement Learning for Recommender Systems",
-        "type": "inproceedings @inproceedings{xin2020self, conference",
+        "type": "User Interaction and Feedback",
         "year": "2020"
     },
     "zhang2019deep": {
@@ -120,7 +120,7 @@
         "publisher": "ACM",
         "series": "CSUR",
         "title": "Deep learning based recommender system: A survey and new perspectives",
-        "type": "article @article{zhang2019deep, journal",
+        "type": "Deep Learning Techniques ",
         "volume": "52",
         "year": "2019"
     }
