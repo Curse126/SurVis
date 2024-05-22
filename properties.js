@@ -41,10 +41,6 @@ var tagCloudOptions = [{
     field: 'series',
     title: 'Series',
     minTagFrequency: 1
-}, {
-    field: 'type',
-    title: 'Type',
-    minTagFrequency: 1
 }];
 
 /**
